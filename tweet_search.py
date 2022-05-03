@@ -7,8 +7,7 @@ client = tweepy.Client(config.bearer_token)
 
 ##FILTROS DE CONSULTA
 # Insira palavras-chaves -> É possível utilizar operadores lógicos, com OR sendo "ou" e " " (um espaço em branco) sendo "e"
-# Alguns outros filtros podem ser utilizados nessa consulta (query), como idioma, 
-# tipo do tweet, elementos presentes e etc... Consulte o link "Construindo consultas"
+# Alguns outros filtros podem ser utilizados nessa consulta (query), como idioma, tipo do tweet, elementos presentes e etc...
 consulta = "(fanfic OR fic OR fanfiqueiro OR fanfiqueira OR fanficando OR fanficar) lang:pt -is:retweet -has:media"
 
 #Data limite da coleta (Formato ISO 8601/RFC 3339)
