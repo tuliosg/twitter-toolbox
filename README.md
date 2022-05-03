@@ -6,7 +6,7 @@ No trabalho desenvolvido, essas ferramentas foram aplicadas utilizando a API v2 
 ## Referências
 * **API do Twitter:** 
 https://developer.twitter.com/en/docs/twitter-api
-* **Tweepy:** 
+* **tweepy:** 
 https://www.tweepy.org/
 * **NLTK:** 
 https://www.nltk.org/
