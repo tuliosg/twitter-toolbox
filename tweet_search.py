@@ -1,9 +1,6 @@
-# -*- coding: UTF-8 -*-
 import tweepy
 import pandas as pd
 import config
-import sys
-sys.stdout.reconfigure(encoding='utf-8')
 
 #Autenticação dos tokens/keys
 client = tweepy.Client(config.bearer_token)
@@ -15,7 +12,8 @@ client = tweepy.Client(config.bearer_token)
 consulta = "(fanfic OR fic OR fanfiqueiro OR fanfiqueira OR fanficando OR fanficar) lang:pt -is:retweet -has:media"
 
 #Data limite da coleta (Formato ISO 8601/RFC 3339)
-data_fim = ["2022-03-14T23:59:00.00z"]
+#Exemplo de data: ["2022-03-14T23:59:00.00z"]
+data_fim = ["AAAA-MM-DDTHH:MM:SS.ssz"]
 
 #Número de resultados (máximo por consulta na conta "Elevated Access" -> 100 tweets)
 num_resultados = 100
@@ -58,4 +56,4 @@ for tweet in resultados.data:
 data_frame = pd.DataFrame(dados, columns = colunas)
 
 #Gerando .csv através do data frame
-data_frame.to_csv("Dados-fanfic(14-03).csv", encoding="UTF-8")
+data_frame.to_csv("Dados-Twitter.csv", encoding="UTF-8")
