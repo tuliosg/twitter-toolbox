@@ -27,7 +27,7 @@ exp = ["author_id"]
 
 ##BUSCANDO TWEETS
 #Busca por tweets recentes (últimos 7 dias) utilizando filtros de consulta
-resultados = client.search_recent_tweets(query = consulta, max_results = num_resultados, tweet_fielexpansionds = fields, s = exp, end_time = data_fim)
+resultados = client.search_recent_tweets(query = consulta, max_results = num_resultados, tweet_fields = fields, expansions = exp, end_time = data_fim)
 
 #Coleta os dados dos usuários (@ e nome)
 users = {u["id"]: u for u in resultados.includes["users"]}
