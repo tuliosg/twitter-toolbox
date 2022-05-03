@@ -1,6 +1,5 @@
 ##FUNÇÕES DE LIMPEZA DE DADOS
-#Referência:
-#https://stackoverflow.com/questions/33404752/removing-emojis-from-a-string-in-python
+#Referência: https://stackoverflow.com/questions/33404752/removing-emojis-from-a-string-in-python
 import re
 import string
 
