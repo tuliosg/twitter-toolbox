@@ -1,0 +1,6 @@
+#CHAVES/TOKENS DISPONIBILIZADOS PELA API
+bearer_token = "AAAAAAAAAAAAAAAAAAAAACsvZwEAAAAAWqi%2BhCz0hTyeZp6sBgbUJILrjI8%3DtWYuASzpWbd5Hb3dc3XF0V92ShUoJHJRBGL6VzIHu3GVEvJorx"
+consumer_key = "GgK0mvJ2pjvBxngipWedsK3Wh"
+consumer_secret = "HJveomOlsAw9u9uMH2ykdqY3owX0V84xe8bHAGxeQctPlIRqhQ"
+access_token = "1498409784017657859-aTjI5TNdrzoe0nvfICuRMZ3jjNIixl"
+access_token_secret = "ZriRf8oK7JayhZUqXclt7QYVC7ASkaaVUVkV51fk0LkFr"
