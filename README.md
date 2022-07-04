@@ -1,5 +1,5 @@
 ### 🔧README em construção...🔧 
-# **Twitter toolbox**
+# **Twitter toolbox**                                 [![DOI](https://zenodo.org/badge/488197084.svg)](https://zenodo.org/badge/latestdoi/488197084)
 Este respositório contém uma série de ferramentas úteis (e relativamente simples para iniciantes) para se trabalhar com dados do Twitter. Os códigos foram escritos para um trabalho de análise de dados do Twitter (nessse caso, tweets), onde foi necessário minerar, organizar e limpar todo o material coletado.<br/>
 Esse README está dividido em 4 partes: Mineração, Limpeza, Análise e Referências.<br/>
 Cada uma das 3 primeiras partes conta com uma breve explicação dos códigos correspondentes, juntamente com citações das referências utilizadas na construção de cada um. E a última parte, contém todas as referências citadas ao longo do documento, condensadas em uma única seção.
@@ -18,3 +18,4 @@ Existem níveis de acesso à API do Twitter, os quais tem permissões diferentes
 * [**re**](https://docs.python.org/pt-br/3/library/re.html)
 * [**csv**](https://docs.python.org/pt-br/3/library/csv.html)
 * [**string**](https://docs.python.org/pt-br/3/library/string.html )
+
